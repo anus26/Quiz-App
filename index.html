@@ -7,35 +7,34 @@
     <title>login and registet</title>
 </head>
 <body>
-    <div class="main">
-<input type="checkbox" id="chk" aria-hidden="true">
-        <div class="sigup">
-        <form id="signup_form" >
-            <label for="chk" aria-hidden="true">signup</label>
-            <input type="text " placeholder="fullname" id="fullname" name="required">
+    
+        
+        <form class="form" >
+            <!-- <label for="chk" aria-hidden="true">signup</label> -->
+            <input type="text " placeholder="fullname" id="fullname" >
             <br><br>
-            <input type="email" placeholder="email" id="email" name="required">
+            <input type="email" placeholder="email" id="email" >
             <br><br>
-            <input type="passward" placeholder="password" id="password" name="required">
+            <input type="password" placeholder="password" id="password" >
             <br><br>
             <button type="submit">sigup</button>
         </form>
-    </div>
-    <br>
-        <div class="login">
+    
+    
+
 
             
-                <form id="login_form" >
-                    <label for="chk" aria-hidden="true">login</label>
+                <form class="login_form" >
+                    <!-- <label for="chk" aria-hidden="true">login</label> -->
                     <input type="email" placeholder="email" id="login_email">
                     <br><br>
-                    <input type="passward" placeholder="passward" id="login_passward">
+                    <input type="password" placeholder="password" id="login_password">
                     <br><br>
                     <button type="submit">login</button>
                     <br> 
                     
                 </form>
-            </div>
+            
 
 
 <script src="app.js"></script>
